@@ -3,15 +3,17 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/trekhleb/homemade-machine-learning/master?filepath=notebooks)
 [![Build Status](https://travis-ci.org/trekhleb/homemade-machine-learning.svg?branch=master)](https://travis-ci.org/trekhleb/homemade-machine-learning)
 
+> _You might be interested in 🤖 [Interactive Machine Learning Experiments](https://github.com/trekhleb/machine-learning-experiments)_
+
 _For Octave/MatLab version of this repository please check [machine-learning-octave](https://github.com/trekhleb/machine-learning-octave) project._
 
 > This repository contains examples of popular machine learning algorithms implemented in **Python** with mathematics behind them being explained. Each algorithm has interactive **Jupyter Notebook** demo that allows you to play with training data, algorithms configurations and immediately see the results, charts and predictions **right in your browser**. In most cases the explanations are based on [this great machine learning course](https://www.coursera.org/learn/machine-learning) by Andrew Ng.
 
-The purpose of this repository is _not_ to implement machine learning algorithms by using 3<sup>rd</sup> party library "one-liners" _but_ rather to practice implementing these algorithms from scratch and get better understanding of the mathematics behind each algorithm. That's why all algorithms implementations are called "homemade" and not intended to be used for production.
+The purpose of this repository is _not_ to implement machine learning algorithms by using 3<sup>rd</sup> party library one-liners _but_ rather to practice implementing these algorithms from scratch and get better understanding of the mathematics behind each algorithm. That's why all algorithms implementations are called "homemade" and not intended to be used for production.
 
 ## Supervised Learning
 
-In supervised learning we have a set of training data as an input and a set of labels or "correct answers" for each training set as an output. Then we're training our model (machine learning algorithm parameters) to map the input to the output correctly (to do correct prediction). The ultimate purpose is to find such model parameters that will successfully continue correct input→output mapping (predictions) even for new input examples.
+In supervised learning we have a set of training data as an input and a set of labels or "correct answers" for each training set as an output. Then we're training our model (machine learning algorithm parameters) to map the input to the output correctly (to do correct prediction). The ultimate purpose is to find such model parameters that will successfully continue correct _input→output_ mapping (predictions) even for new input examples.
 
 ### Regression
 
@@ -110,7 +112,7 @@ pip install -r requirements.txt
 
 #### Launching Jupyter Locally
 
-All demos in the project may be run directly in your browser without installing Jupyter locally. But if you want to launch [Jupyter Notebook](http://jupyter.org/) locally you may do it be running the following command from the root folder of the project:
+All demos in the project may be run directly in your browser without installing Jupyter locally. But if you want to launch [Jupyter Notebook](http://jupyter.org/) locally you may do it by running the following command from the root folder of the project:
 
 ```bash
 jupyter notebook
@@ -126,3 +128,7 @@ Each algorithm section contains demo links to [Jupyter NBViewer](http://nbviewer
 ## Datasets
 
 The list of datasets that is being used for Jupyter Notebook demos may be found in [data folder](data).
+
+## Supporting the project
+
+You may support this project via ❤️️ [GitHub](https://github.com/sponsors/trekhleb) or ❤️️ [Patreon](https://www.patreon.com/trekhleb).
